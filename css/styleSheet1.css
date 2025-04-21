@@ -36,6 +36,14 @@
     color: #fff;
 }
 
+.footer {
+
+}
+
+.main {
+    margin-bottom: 30vh;
+    max-height: 150px;
+}
 
 /*
  * Globals
@@ -67,20 +75,24 @@
  */
 
 .nav-masthead .nav-link {
-  color: rgba(255, 255, 255, .5);
-  border-bottom: .25rem solid transparent;
+  border-bottom: .25rem solid;
+  color: #ffffff50;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
-}
+.nav-masthead .active {
+    color: #fff;
+  }
 
 .nav-masthead .nav-link + .nav-link {
   margin-left: 1rem;
 }
 
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+.nav-masthead:hover .nav-link {
+    color: #ffffff50;
+    border-bottom-color: #ffffff50;
+    border-bottom: .25rem solid transparent;
+}
+.nav-masthead .nav-link:hover {
+    color: #fff;
+    border-bottom-color: #fff;
 }
