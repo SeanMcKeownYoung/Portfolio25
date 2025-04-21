@@ -1,4 +1,6 @@
-
+body {
+    background-color:rgb(29, 29, 29);
+}
 
 
 .sBttn {
@@ -37,7 +39,9 @@
 }
 
 .footer {
-
+text-align: center;
+color: #fff;
+bottom: 0;
 }
 
 .main {
@@ -69,6 +73,9 @@
   max-width: 42em;
 }
 
+.cover-container-reset {
+    max-width: 100%;
+  }
 
 /*
  * Header
@@ -96,3 +103,88 @@
     color: #fff;
     border-bottom-color: #fff;
 }
+
+.headLabel {
+    color: #ffffff50;
+    font-weight: 100;
+}
+
+label {
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 500;
+    color: #29bbff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.card {
+    color: #fff;
+    background-color: transparent;
+}
+
+.card-body {
+    margin: 0%;
+    padding: 0%;
+    padding-top: 20px;
+  }
+  .card-text {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+	font-size:18px;
+	padding:9px 40px 9px 19px;
+	text-decoration:none;
+    margin-top: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-decoration:none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .myButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .myButton:hover span {
+    padding-right: 25px;
+  }
+  
+  .myButton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .card {
+    color: #e3e3e3;
+    border: transparent;
+    padding-bottom: 20px;
+}
+
