@@ -37,27 +37,27 @@ h1 {
 </head>
 
 <body class="d-flex h-100 text-center">
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column col-lg-8 mx-auto p-4 py-md-5">
     <header class="mb-auto container">
       <div>
         <h3 class="float-md-start mb-0 headLabel" style="display: none;">Cover</h3>
         <nav class="nav nav-masthead justify-content-center float-md-center">
-          <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="00HOME.html">Home</a>
+          <a class="nav-link fw-bold py-1 px-0 active" style="margin-right: 5px !important;" aria-current="page" href="00HOME.html">Home</a>
           <div class="bttnGroup">
             <div class="dropdown">
-              <button class="nav-link contactActive fw-bold py-1 px-0 dropdown-toggle" style="margin-left: 15px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <button class="nav-link contactActive fw-bold py-1 px-0 mx-3 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Experience
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="001PORTFOLIO.html">Portfolio</a></li>
                 <li><a class="dropdown-item" href="00SKILLS.html">Skills</a></li>
-                <li><a class="dropdown-item" href="00AWARDS.html">Awards</a></li>
+                <li><a class="dropdown-item" href="001AWARDS.html">Awards</a></li>
               </ul>
             </div>
           </div>
           <div class="bttnGroup">
             <div class="dropdown">
-              <button class="nav-link contactActive fw-bold py-1 px-0 dropdown-toggle" style="margin-left: 15px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <button class="nav-link contactActive fw-bold py-1 px-0 dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Contact
               </button>
               <ul class="dropdown-menu">
@@ -71,7 +71,7 @@ h1 {
       </div>
     </header>
 
-    <main class="px-3 whiteTxt main">
+    <main class="px-3 whiteTxt mainBlock">
       <h1>Sean McKeown-Young.</h1>
       <p class="lead">I'm an Award Winning illustrator, designer, Art Director and Creative Director with a background in Print and Digital, Animation, UX and UI design. I've lead large teams and small. I love coming up with unique and unexpected solutions to leverage challenges into opportunities.</p>
       <p class=" containerButtons">
@@ -80,10 +80,19 @@ h1 {
       </p>
     </main>
 
-    <footer class="mt-auto footer">
-      <i style="display: none;" class="fa fa-twitter-square"></i>
-      <p class="footerTxt">
-          art director | designer | illustrator | animator</p>
+    <footer>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top whiteTxt">
+        <div class="justify-content-left float-md-left"> 
+          <p class="footerHead">Sean McKeown-Young.</p> 
+          <p class="footerText">Art Director. Designer. Illustrator. Animator</p>
+        </div>
+    
+        <ul class="list-unstyled d-flex footerIcons">
+          <li class="ms-0"><a class="" href="https://www.linkedin.com/in/sean-mckeown-young/" target="_blank"><svg class="iconOgraphs" width="24" height="24"><use xlink:href="#linkedin"/></svg></a></li>
+          <li class="ms-3"><a class="" href="mailto:seanmckeownyoung@gmail.com?"><svg class="iconOgraphs" width="24" height="24"><use xlink:href="#email"/></svg></a></li>
+          <li class="ms-3"><a class="" href="tel:4197085563"><svg class="iconOgraphs" width="24" height="24"><use xlink:href="#call"/></svg></a></li>
+        </ul>
+      </div>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
