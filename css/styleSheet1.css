@@ -104,6 +104,8 @@ bottom: 0;
     border-bottom-color: #fff;
 }
 
+
+
 .headLabel {
     color: #ffffff50;
     font-weight: 100;
@@ -188,3 +190,66 @@ label {
     padding-bottom: 20px;
 }
 
+.btn-group {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.dropdown-menu {
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+    border-radius: 0% !important;
+}
+
+
+.dropdown-menu .dropdown-item {
+    color: #ffffff50 !important;
+    background-color: transparent !important;
+  }
+  
+  
+  .dropdown-menu:hover .dropdown-item {
+      color: #ffffff50 !important;
+      background-color: transparent !important;
+  }
+  .dropdown-menu .dropdown-item:hover {
+      color: #fff !important;
+      background-color: transparent !important;
+  }
+
+  .dropdown:hover .contactActive {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.dropdown-divider {
+    border-color: #fff !important;
+}
+
+.lists {
+    text-align: left;
+    display: inline-block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.lists h3 {
+    font-size: 1.5em;
+    margin-left: 1rem;
+  }
+
+.subList {
+    font-size: 12px !important;
+    font-weight: 200;
+}
+  
+li:hover {
+    text-shadow: 0px 0px 0px #000000, 0px 0px 1px #000000, 0px 0px 2px #000000, 0px 0px 3px #000000, 0px 0px 1px #000000, 0px 0px 4px #000000, 0px 0px 5px #000000, 0px 0px 10px #000000 , 0px 0px 10px #000000 , 0px 0px 15px #000000, 0px 0px 16px #000000 , 0px 0px 20px #000000 , 0px 0px 30px #000000;
+}
