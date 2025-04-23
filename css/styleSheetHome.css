@@ -72,7 +72,12 @@ margin-bottom: 10px;
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
+.navContainer {
+margin-bottom: 200px !important;
+}
+
+
 .mainBlock {
 
 }
