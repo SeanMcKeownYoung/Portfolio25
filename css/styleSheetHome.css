@@ -469,6 +469,15 @@ fill: #fff;
 transition: all 0.3s ease-out;
 }
 
+.iconOtoggle {
+  fill: #29bbff;
+  transition: all 0.3s ease-out;
+}
+
+.iconOtoggle:hover {
+  fill: #fff;
+  transition: all 0.3s ease-out;
+}
 
 @media only screen and (max-width: 600px) {
 .iconOgraphs {
