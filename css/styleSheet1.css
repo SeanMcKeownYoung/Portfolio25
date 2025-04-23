@@ -390,8 +390,9 @@ label {
   }
 
 .subList {
-    font-size: 12px !important;
+    font-size: 14px !important;
     font-weight: 200;
+    margin: 0px 0px 5px 23px !important;
 }
 
 .subListAwards {
@@ -402,7 +403,14 @@ label {
   font-style: italic;
   margin-left: 23px !important;
 }
-
+.subListSkills {
+  font-size: 14px !important;
+  font-weight: 200;
+  display: inline-block !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-left: 5px !important;
+}
   
 .center {
   text-align: center;
@@ -470,4 +478,9 @@ label {
     margin-right: 40px;
   }
 
+}
+
+/* Portfolio start */
+.scrolling-wrapper{
+	overflow-x: auto;
 }
