@@ -557,9 +557,8 @@ label {
 
 /* Portfolio start */
 .scrolling-wrapper{
-	overflow-x: auto;
-    scrollbar-color: 29bbff !important;
-    background-color: 29bbff !important;
+    overflow-x: scroll !important;
+    scrollbar-color: #29bbff !important;
 }
 
 /* Examples */
