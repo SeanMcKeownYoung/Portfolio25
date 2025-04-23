@@ -120,6 +120,7 @@ max-width: 42em;
 
 .nav-masthead {
 font-weight: 600;
+font-size: 1em;
 }
 
 .nav-masthead .nav-link {
@@ -201,7 +202,10 @@ border-bottom: .25rem solid;
 
 
 @media only screen and (max-width: 767px) {
-
+  .nav-masthead {
+    font-weight: 600;
+    font-size: 1.25em;
+    }
 
 .headLabel {
   color: #29bbff;
@@ -223,10 +227,7 @@ border-bottom: .25rem solid;
 border-bottom: 1px solid rgb(97, 97, 97);
 padding-bottom: 10px;
 }
-.nav-masthead {
-border-bottom: 1px solid rgb(97, 97, 97);
-padding-bottom: 10px;
-}
+
 
 .nav-masthead:hover .headLabel {
 color: #fff !important;
@@ -290,11 +291,7 @@ border: 0 !important;
   margin-left: 40px !important;
   margin-right: 40px !important;
 }
-footer {
-  margin-left: 40px !important;
-  margin-right: 40px !important;
 
-}
 main {
   margin-left: 40px !important;
   margin-right: 40px !important;
@@ -535,12 +532,22 @@ float: right;
 }
 
 footer {
-  margin-left: 40px;
-  margin-right: 40px;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 }
 
+footer {
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  width: 80%;
+}
 /* Portfolio start */
 .scrolling-wrapper{
 overflow-x: auto;
