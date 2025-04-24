@@ -17,6 +17,22 @@ body {
   
 }
 
+.sBttn2 {
+  border-radius: 0 !important;
+  border-color: #fff;
+  width: 200px; 
+  text-align: left;
+}
+.sBttn2:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: black;
+  -webkit-box-shadow: 0px 0px 30px 3px rgba(255,255,255,0.5);
+  -moz-box-shadow: 0px 0px 30px 3px rgba(255,255,255,0.5);
+  box-shadow: 0px 0px 30px 3px rgba(255,255,255,0.5);
+}
+
+
 .sBttn {
     border-radius: 0 !important;
     border-color: #fff;
@@ -27,6 +43,8 @@ body {
   border-color: #29bbff;
   color: #29bbff;
   margin-top: 20px;
+  width: 200px; 
+  text-align: left;
 }
 
 .aBttn:hover {
@@ -35,6 +53,17 @@ body {
   background-color: #29bbff;
   color: #000;
   margin-top: 20px;
+  -webkit-box-shadow: 0px 0px 30px 3px #29bbff;
+  -moz-box-shadow: 0px 0px 30px 3px #29bbff;
+  box-shadow: 0px 0px 30px 3px #29bbff;
+}
+@media only screen and (max-width: 767px) {
+  .sBttn2 {
+    width: 100% !important
+  }
+  .aBttn {
+    width: 100% !important
+  }
 }
 
 .containerButtons:hover .sBttn {
