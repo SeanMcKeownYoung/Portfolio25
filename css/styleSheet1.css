@@ -3,13 +3,39 @@ body {
 }
 
 
+.padReps {
+  margin-bottom: 60px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .padReps {
+    margin-bottom: 60px !important;
+  }
+}
+
+.repImg {
+  
+}
 
 .sBttn {
     border-radius: 0 !important;
     border-color: #fff;
 }
 
+.aBttn {
+  border-radius: 0 !important;
+  border-color: #29bbff;
+  color: #29bbff;
+  margin-top: 20px;
+}
 
+.aBttn:hover {
+  border-radius: 0 !important;
+  border-color: #29bbff;
+  background-color: #29bbff;
+  color: #000;
+  margin-top: 20px;
+}
 
 .containerButtons:hover .sBttn {
     background-color: transparent;
@@ -33,7 +59,7 @@ body {
 
 .jumbotron {
     background-image: url("assets/coverShot.png") !important;
-    background-color:darkblue
+
 }
 
 .whiteTxt {
