@@ -194,24 +194,58 @@ bottom: 0;
   font-weight: 200 !important;
   font-size: 14px;
   color: #fff;
-
 }
 
 .dropdown-menu:hover .dropdown-item {
     color: #ffffff50 !important;
     background-color: transparent !important;
 }
+
+.dropdown-menu:hover .resumeItem {
+    color: transparent !important;
+    background-color: transparent !important;
+    transition:  0.1s linear 0s;
+}
+
+:hover.resumeHead .resumeItem {
+    color: #fff !important; transition:  0.1s linear 0s;
+}
+
 .dropdown-menu .dropdown-item:hover {
   font-weight: 600 !important;
   color: #fff !important;
   background-color: transparent !important;
 }
+:hover.resumeItem {font-weight: 600 !important; }
 
 .dropdown:hover .contactActive {
   color: #fff;
   border-bottom-color: #fff;
   border-bottom: .25rem solid;
 }
+
+      .resumeItem {
+        list-style-type: none;
+        margin-left: 10px !important;
+      }
+      .resumeList {
+        list-style-type: none !important; padding: 0% !important;
+      }
+
+
+
+.resumeItem  {
+  padding: 0 !important;
+  margin-left: 10px  !important;
+  font-weight: 200 !important;
+  font-size: 14px !important;
+  color: transparent !important;
+  text-decoration: none !important;
+  display: block;
+}
+
+
+
 
 
 @media only screen and (max-width: 767px) {
@@ -300,14 +334,10 @@ padding-bottom: 10px;
     border-radius: 0% !important;
     border: 0px  !important;
   }
-  .navbar {
-    margin-left: 40px !important;
-    margin-right: 40px !important;
-  }
+
   footer {
     margin-left: 40px !important;
     margin-right: 40px !important;
-
   }
   main {
     margin-left: 40px !important;
