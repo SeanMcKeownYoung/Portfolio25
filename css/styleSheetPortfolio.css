@@ -232,8 +232,6 @@ bottom: 0;
         list-style-type: none !important; padding: 0% !important;
       }
 
-
-
 .resumeItem  {
   padding: 0 !important;
   margin-left: 10px  !important;
@@ -250,7 +248,26 @@ bottom: 0;
 
 @media only screen and (max-width: 767px) {
 
-  
+.resumeItem  {
+  padding: 0 !important;
+  margin-left: 10px  !important;
+  font-weight: 200 !important;
+  font-size: 14px !important;
+  color: #29bbff !important;
+  text-decoration: none !important;
+  display: block;
+}
+
+.dropdown-menu:hover .resumeItem {
+    color: #ffffff50 !important;
+    background-color: transparent !important;
+    transition:  0.1s linear 0s;
+}
+:hover.resumeItem {color: #fff; }
+:hover.resumeHead .resumeItem {
+    color: #fff !important; transition:  0.1s linear 0s;
+}
+
   .headLabel {
     color: #29bbff;
       font-weight: 100;
