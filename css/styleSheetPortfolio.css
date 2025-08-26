@@ -201,6 +201,13 @@ bottom: 0;
     background-color: transparent !important;
 }
 
+
+.dropdown:hover .contactActive {
+  color: #fff;
+  border-bottom-color: #fff;
+  border-bottom: .25rem solid;
+}
+
 .dropdown-menu:hover .resumeItem {
     color: transparent !important;
     background-color: transparent !important;
@@ -217,13 +224,6 @@ bottom: 0;
   background-color: transparent !important;
 }
 :hover.resumeItem {font-weight: 600 !important; }
-
-.dropdown:hover .contactActive {
-  color: #fff;
-  border-bottom-color: #fff;
-  border-bottom: .25rem solid;
-}
-
       .resumeItem {
         list-style-type: none;
         margin-left: 10px !important;
