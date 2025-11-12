@@ -396,20 +396,7 @@ label {
     margin-bottom: 10px;
 }
 
-.card {
-    color: #fff;
-    background-color: transparent;
-}
 
-.card-body {
-    margin: 0%;
-    padding: 0%;
-    padding-top: 20px;
-  }
-  .card-text {
-    margin: 0%;
-    padding: 0%;
-  }
 
   .myButton {
 	box-shadow:inset 0px -3px 7px 0px #29bbff;
@@ -461,11 +448,7 @@ label {
     opacity: 1;
     right: 0;
   }
-  .card {
-    color: #e3e3e3;
-    border: transparent;
-    padding-bottom: 20px;
-}
+
 
 
 
@@ -625,3 +608,23 @@ label {
     margin: 0 1rem 1rem 0;
   }
   
+  .card {
+    color: #e3e3e3;
+    border: transparent;
+    padding-bottom: 20px;
+}
+
+.card {
+    color: #fff;
+    background-color: #115676 !important;
+}
+
+.card-body {
+    margin: 0%;
+    padding: 0%;
+    padding-top: 20px;
+  }
+  .card-text {
+    margin: 0%;
+    padding: 0%;
+  }
