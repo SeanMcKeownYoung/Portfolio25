@@ -6,21 +6,60 @@
   <meta name="description" content="">
 
   <title>Sean McKeown-Young | Home</title>
-  <link href="css/styleSheetHome.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://use.typekit.net/gih0csk.css">
+  <link href="css/MoreStyleSheet26.css" rel="stylesheet" >
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 <style> 
-@media only screen and (min-width: 768px) {
+
+
+
 body {
-    background: url(assets/coverShot.png) no-repeat fixed left;
+    background: url(assets/01SKELETON/coverShot2025.png) no-repeat fixed center;
     background-size: cover;
+    z-index: -5;
 }
+
+h1 {
+    font-family: "neue-haas-grotesk-display", sans-serif !important; 
+    font-size: 55px !important;
+}
+
+@media only screen and (min-width: 570px) and (max-width: 670px) {
+    h1 {
+        font-family: "neue-haas-grotesk-display", sans-serif !important; 
+        font-size: 45px !important;
+    }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 570px) {
+    h1 {
+        font-family: "neue-haas-grotesk-display", sans-serif !important; 
+        font-size: 38px !important;
+    }
+}
+@media only screen and (min-width: 410px) and (max-width: 510px) {
+    h1 {
+        font-family: "neue-haas-grotesk-display", sans-serif !important; 
+        font-size: 32px !important;
+    }
+}
+@media only screen and (max-width: 410px) {
+    h1 {
+        font-family: "neue-haas-grotesk-display", sans-serif !important; 
+        font-size: 27px !important;
+    }
 }
 
 
-@media only screen and (max-width: 767px) {
+.introTxt {
+    font-family: "neue-haas-grotesk-display", sans-serif !important; 
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
   body {
-    background: url(assets/coverShotMob.png) no-repeat fixed center;
+    background: url(assets/01SKELETON/coverShotMob2025.png) no-repeat fixed bottom center;
     background-size: cover;
 }
 .mobBttn {
@@ -66,28 +105,27 @@ body {
     <header class="mb-auto container navContainer" style="min-height: 160px;">
       <div>
         <nav class="nav nav-masthead justify-content-center float-md-center">
-          <a class="nav-link fw-bold py-1 px-0 activeHome" style="margin-right: 10px !important;" aria-current="page" href="00HOME.html">Home</a>
+          <a class="fw-bold py-1 px-0 activeHome" style="margin-right: 10px !important;" aria-current="page" href="2025AdvancePortfolio.html">Home</a>
           <div class="bttnGroup">
-            <div class="dropdown">
-              <button class="nav-link contactActive fw-bold py-1 px-0 mx-3 dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="tealTxt">Experience</span>
+            <div class="dropdown dropBox">
+              <button class="nav-link fw-bold py-1 px-0 dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="Txt">Experience </span>
               </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="001PORTFOLIO.html">Portfolio</a></li>
-                  <li><a class="dropdown-item" href="001SKILLS.html">Skills</a></li>
-                  <li><a class="dropdown-item" href="001AWARDS.html">Awards</a></li>
-                  <li class="dropdown-item resumeHead">Resume
-                          <a class="resumeItem" href="assets/Sean McKeown-Young Resume.pdf" target="_blank">Download PDF</a>
-                          <a class="resumeItem" href="https://profile.indeed.com/p/seanm-l1qf66q" target="_blank">Indeed.com </a>
-                  </li>
+              <div class="dashBox"><img src="assets/01SKELETON/dashedRule.svg"></div>
+                
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="202501PORTFOLIO.html">Portfolio</a></li>
+                  <li><a class="dropdown-item" href="202503SKILLS.html">Skills</a></li>
+                  <li><a class="dropdown-item" href="202502AWARDS.html">Awards</a></li>
                 </ul>
             </div>
           </div>
           <div class="bttnGroup">
-            <div class="dropdown">
-              <button class="nav-link contactActive fw-bold py-1 px-0 dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Contact
+            <div class="dropdown dropBox">
+              <button class="nav-link fw-bold py-1 px-0 dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="Txt">Contact</span>
               </button>
+              <div class="dashBox"><img src="assets/01SKELETON/dashedRule.svg"></div>
               <ul class="dropdown-menu dropmenuHome">
                 <li><a class="dropdown-item dropHome" href="mailto:seanmckeownyoung@gmail.com?">Email</a></li>
                 <li><a class="dropdown-item dropHome" href="tel:4197085563">Call</a></li>
@@ -99,39 +137,21 @@ body {
       </div>
     </header>
 
-    <main class="px-3 whiteTxt mainBlock">
-      <h1 class="h1Home">Sean McKeown-Young.</h1>
-      <p class="lead pHome">I'm an Award Winning illustrator, designer, Art Director and Creative Director with a background in Print and Digital, Animation, UX and UI design. I've lead large teams and small. I love coming up with unique and unexpected solutions to leverage challenges into opportunities.</p>
+    <div class="main">
+      <h1 class="h1">Sean McKeown-Young.</h1>
+      <p class="introTxt">I focused on advancing high-level design for a wider set of clients within Advance. From Marketing the Online newspaper to creating a new set of Mobile Video templates for Social Media use.</p>
       <p class=" containerButtons">
-        <a href="001PORTFOLIO.html" class="btn btn-lg btn-outline-light  sBttn" style="margin: 5px;">Portfolio</a>
-        <a data-bs-toggle="modal" data-bs-target="#Resume"  class="btn btn-lg btn-outline-light  sBttn" style="margin: 0px 5px;">Resume</a>
+        <a href="202501PORTFOLIO.html" class="btn btn-lg btn-outline-light  sBttn" target="_blank" style="margin: 5px;">Portfolio</a>
+        <a href="202502AWARDS.html" class="btn btn-lg btn-outline-light  sBttn" target="_blank" style="margin: 5px;">Awards</a>
       </p>
-    </main>
-		<!-- Resume -->   
+    </div>
 
-              <div class="modal fade" id="Resume" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <p class="" style="text-align: left;  text-wrap: balance;"> <a href="assets/Sean McKeown-Young Resume.pdf">Click here to download my resume.<br></a>
-                      <a rel="noopener" target="_blank" href="https://profile.indeed.com/p/seanm-l1qf66q">OR Click here to visit my Indeed.com Resume.</a> </p>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <object data="assets/Sean McKeown-Young Resume.pdf" type="application/pdf" style="background-color: #fff;" width="100%" height="500px">
-                        <p style="background-color: #fff;">It appears you don't have a PDF plugin for this browser. No problem. <a href="assets/Sean McKeown-Young Resume.pdf">Click here to download the PDF file.</a>
-                          </p>
-                        </object>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-    <footer>
+    <footer style="display: none;">
       <div class="flex-column d-inline-flex justify-content-center py-4 my-4 whiteTxt">
         <div class=""> 
           <p class="footerHead">Sean McKeown-Young.</p> 
           <p class="footerText">Art Director. Designer. Illustrator. Animator</p>
+                        <p class="Scroller">Illustrator | Animator | Designer | Front-End Coder | Art Director | UX Design  | UI Design</p>
         </div>
     
         <ul class="list-unstyled d-inline-flex justify-content-center  footerIcons ">
@@ -143,5 +163,6 @@ body {
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+  </div>
 </body>
 </html>
