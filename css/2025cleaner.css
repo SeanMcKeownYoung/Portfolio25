@@ -13,6 +13,49 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: "neue-haas-grotesk-display", sans-serif !important; 
 }
 
+z {
+  display: inline !important;
+}
+
+@media only screen and (max-width: 600px) {
+z {
+  display: none !important;
+}
+  }
+
+.clickR {
+  border-top: 5px solid #302d2d !important; 
+  width: 250px !important; 
+  margin: auto !important; 
+  margin-top: 30px !important;
+}
+.clickR:hover {
+  border-top: 5px solid #302d2d !important; 
+  background-color: #302d2d;
+  width: 300px !important; 
+  border-bottom: 2px solid #302d2d !important; 
+}
+.clickR p {
+  margin-top: 10px !important;
+}
+.clickR:hover p {
+  margin-top: 10px !important;
+  color: #ffcb05;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+.clickR {
+  border-top: 5px solid #302d2d !important; 
+  width: 250px !important; 
+  margin: auto !important; 
+  margin-top: 10px !important;
+}
+.clickR p {
+  margin-top: 10px !important;
+}
+  }
+
 .contentTopper {
     height: 100px;
     font-size: 55px !important;
@@ -106,6 +149,20 @@ li {
 .introTxt25 {
     text-wrap: balance !important;
 }
+
+.introTxt25again{
+    text-wrap: balance !important;
+    width: 80vw !important;
+    margin: auto !important;
+
+}
+
+.contentTopper {
+    height: 70px;
+    font-size: 55px !important;
+}
+
+
   }
 
 
@@ -201,8 +258,51 @@ margin: auto;
     margin-left: 30px !important;
 }
 
+
+.cardBox {
+    position: fixed !important;
+    bottom: 0px !important;
+    width: 100vw !important;
+    z-index: 15 !important;
+    align-content: end !important;
+}
+
+
 @media only screen and (max-width: 600px) {
 
+.contentContainerClip {
+    width: 100vw !important;
+    height: calc(100vh + 10%) !important;
+    padding-top: 100px;
+    background-color: #ffcb05;
+}
+
+
+.cardBox {
+    position: fixed !important;
+    bottom: 0px !important;
+    width: 100vw !important;
+    z-index: 15 !important;
+    align-content: end !important;
+    padding-bottom: 110px !important;
+}
+
+footerd {
+    width: 100vw;
+    height: 180px;
+        bottom: 0;
+    left: 50%; 
+    transform: translate(-50%, 0%);
+    z-index: 5 !important;
+}
+
+
+.dorp {
+      bottom: 0;
+    left: 50%; 
+    transform: translate(-50%, 0%);
+        height: calc(100vh - 50vh) !important;
+}
     .contentBox {
         width: 100vw;
         margin: auto;

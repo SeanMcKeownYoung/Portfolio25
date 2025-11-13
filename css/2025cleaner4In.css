@@ -660,7 +660,7 @@ footer {
   -moz-box-shadow: 0px 0px 30px 3px #29bbff;
   box-shadow: 0px 0px 30px 3px #29bbff;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .sBttn2 {
     width: 100% !important
   }
@@ -716,3 +716,32 @@ margin-top: 100px !important;
 
 
 }
+
+.basePad {
+  margin-bottom: 60px !important ;
+}
+
+@media only screen and (max-width: 600px) {
+    .basePad {
+      margin-bottom: 170px !important ;
+    }
+
+.adPageHalf {
+  width: 33% !important;
+}
+
+.adPageFull {
+  width: 66% !important;
+}
+
+.gateFolder {
+  width: 100% !important;
+  display: inline-block !important;
+  margin-top: 40px !important;
+}
+
+.gateFold {
+  width: 49% !important;
+}
+
+  }
