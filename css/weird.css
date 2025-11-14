@@ -258,14 +258,14 @@ margin: auto;
     margin-left: 30px !important;
 }
 
-/* SOMETHING IS BROKEN IN THIS  	
+
 .cardBox {
     position: fixed !important;
     bottom: 0px !important;
     width: 100vw !important;
     z-index: 15 !important;
     align-content: end !important;
-}*/
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -277,7 +277,7 @@ margin: auto;
     background-color: #ffcb05;
 }
 
-/* SOMETHING IS BROKEN IN THIS 	
+
 .cardBox {
     position: fixed !important;
     bottom: 0px !important;
@@ -285,9 +285,24 @@ margin: auto;
     z-index: 15 !important;
     align-content: end !important;
     padding-bottom: 110px !important;
-}*/ 
+}
+
+footerd {
+    width: 100vw;
+    height: 180px;
+        bottom: 0;
+    left: 50%; 
+    transform: translate(-50%, 0%);
+    z-index: 5 !important;
+}
 
 
+.dorp {
+      bottom: 0;
+    left: 50%; 
+    transform: translate(-50%, 0%);
+        height: calc(100vh - 50vh) !important;
+}
     .contentBox {
         width: 100vw;
         margin: auto;
